@@ -1,5 +1,7 @@
 (ns silicone.core
-  (:require [hoplon.core :refer [ensure-kids!]]))
+  (:require [hoplon.core :refer [ensure-kids!]]
+            ;[cljsjs.polymer]
+            ))
 
 (defn- elem-ctor
   [tag]
